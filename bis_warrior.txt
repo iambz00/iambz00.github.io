@@ -1,0 +1,53 @@
+Tank Pre-Raid
+
+* Head
+Tankatronic Goggles
+ 질긴톱니매듭가죽6 = 톱니매듭가죽30
+ 코륨동력핵1 = 코륨주괴3 불근1
+ 강화된 아다만타이트관3 = 주괴60
+ 지옥강철 안정기4 = 지옥강철8 = 주괴24 이터늄16
+ 황근1
+ 탈라사이트2
+
+* Wrist
+Bracers of the Green Fortress
+ 강아다6 = 주괴60
+ 생근20
+ 황근1
+
+*Hands
+Felsteel Gloves
+ Felsteel6 = 주괴18 이터늄12
+
+*Leg
+Felsteel Leggings
+ Felsteel8 = 주괴24 이터늄16
+
+*Ranged
+Gyro-balanced Khorium Destroyer
+ Hardened Adamantite Tube
+ Khorium Bar (20)
+ Felsteel Stabilizer (4) = 강철8 = 주괴24 이터늄16
+ Primal Fire (12)
+ Primal Air (12)
+ Primal Nether
+
+
+*Trinket
+Gnomish Poultryizer
+ Hardened Adamantite Tube (2) - 주괴40
+ Khorium Power Core (2) - 코륨주괴6 불근2
+ Arcane Dust (10)
+ Large Prismatic Shard (2)
+
+Goblin Rocket Launcher
+ Hardened Adamantite Tube (2) - 주괴40
+ Khorium Power Core - 코륨주괴3 불근1
+ Felsteel Stabilizer (2) - 지옥강철4 = 주괴12 이터늄8
+ Primal Fire (6)
+ Primal Earth (6)
+ Delicate Arcanite Converter (2) = 아케2 강철그물2
+
+다크문 열광 - 광기
+다크문 원한 - 앙갚음
+
