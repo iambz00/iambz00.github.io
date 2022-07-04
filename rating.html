@@ -1,5 +1,6 @@
 <style>
-table.darktable	{ border:1px solid #000; border-collapse: collapse }
+* { font-size:10pt }
+table.darktable	{ border:1px solid #000; border-collapse: collapse; margin:5px; }
 table.darktable td,th { border:1px solid #000 }
 </style>
 
@@ -60,10 +61,6 @@ table.darktable td,th { border:1px solid #000 }
 <td>5.92</td>
 <td>13.99
 </td></tr></tbody></table>
-
-
-every 25 points of defense skill grants a 1% dodge chance, 1% parry chance, 1% block chance, 1% increased chance to be missed and 1% decreased chance to be critically hit by physical attacks.
-
 
 <table class="darktable">
 
@@ -178,4 +175,120 @@ every 25 points of defense skill grants a 1% dodge chance, 1% parry chance, 1% b
 <td>118.2</td>
 <td>245.9
 </td></tr></tbody></table>
+
+
+
+Diminishing Return Formula
+
+<pre>
+d = 1 / ( 1/c + k/b ) = bc / (b + kc)
+d = diminished value
+c = cap of stat
+k = class specific coefficient
+b = base value before DR
+</pre>
+
+<table class="darktable">
+
+<thead><tr>
+<th>Class</th>
+<th><i>k</i></th>
+<th>Parry cap</th>
+<th>Dodge cap</th>
+<th>Miss cap</th>
+<th>Lv80 Dodge%/Agi</th>
+<th>Base Dodge%
+</th></tr></thead><tbody>
+<tr>
+<td>Warrior</td>
+<td>0.9560</td>
+<td>47.003525</td>
+<td>88.129021</td>
+<td>16</td>
+<td>0.013600</td>
+<td>3.463600
+</td></tr>
+<tr class="alt">
+<td>Paladin</td>
+<td>0.9560</td>
+<td>47.003525</td>
+<td>88.129021</td>
+<td>16</td>
+<td>0.019200</td>
+<td>3.268500
+</td></tr>
+<tr>
+<td>Hunter</td>
+<td>0.9880</td>
+<td>145.560408</td>
+<td>145.560408</td>
+<td></td>
+<td>0.013300</td>
+<td>-5.450000
+</td></tr>
+<tr class="alt">
+<td>Rogue</td>
+<td>0.9880</td>
+<td>145.560408</td>
+<td>145.560408</td>
+<td></td>
+<td>0.024100</td>
+<td>-0.590000
+</td></tr>
+<tr>
+<td>Priest</td>
+<td>0.9530</td>
+<td>0</td>
+<td>150.375940</td>
+<td></td>
+<td>0.019200</td>
+<td>3.183000
+</td></tr>
+<tr class="alt">
+<td>Deathknight</td>
+<td>0.9560</td>
+<td>47.003525</td>
+<td>88.129021</td>
+<td>16</td>
+<td>0.013600</td>
+<td>3.463600
+</td></tr>
+<tr>
+<td>Shaman</td>
+<td>0.9880</td>
+<td>145.560408</td>
+<td>145.560408</td>
+<td></td>
+<td>0.019200</td>
+<td>1.675000
+</td></tr>
+<tr class="alt">
+<td>Mage</td>
+<td>0.9530</td>
+<td>0</td>
+<td>150.375940</td>
+<td></td>
+<td>0.019500</td>
+<td>3.457500
+</td></tr>
+<tr>
+<td>Warlock</td>
+<td>0.9530</td>
+<td>0</td>
+<td>150.375940</td>
+<td></td>
+<td>0.019200</td>
+<td>2.035000
+</td></tr>
+<tr class="alt">
+<td>Druid</td>
+<td>0.9720</td>
+<td>0</td>
+<td>116.890707</td>
+<td></td>
+<td>0.024000</td>
+<td>4.951000
+</td></tr></tbody><tfoot></tfoot></table>
+DK has 25% of str to parry rate conversion
+
 </body>

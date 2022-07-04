@@ -1,3 +1,5 @@
+TBC
+
 Strength (str): 
 1 str = 2 attack power (AP)
 20 str = 1 block value
