@@ -7,13 +7,19 @@ a { color:#999 }
 function toggle(id) {
     var a = document.getElementById(id)
     a.style.display = (a.style.display == 'none')? 'block' : 'none'
-    console.log(a.style.display)
+}
+function collapseAll() {
+    var pres = document.getElementsByTagName('pre')
+    for (var i = 0; i < pres.length; i++) pres[i].style.display = 'none'
 }
 </script>
 </head>
 <body style="background-color:#000; color:#ccc">
+<div>
+<a href="javascript:collapseAll()">[ Collapse All ]</a>
+</div>
 
-<a href="javascript:toggle('article01')">▶ 방어구 관통 / 분쇄의 투척</a>
+<a href="javascript:toggle('article01')">▶ 방어구 관통 / 분쇄의 투척</a><br>
 <pre id="article01" style="display:block">
 방어구 관통 / 분쇄의 투척
 2022. 10. 14.
@@ -48,6 +54,35 @@ function toggle(id) {
 1.방어도 감소는 곱연산
 2.방어도 관통 캡은 1399(100%), 다른 요소와 무관함!
 3.분쇄의 투척은 효과 있음!
+</pre>
+
+<a href="javascript:toggle('article02')">▶ 리분 기공(고블린 / 노움 선택)</a><br>
+<pre id="article02" style="display:block">
+리분 기공(고블린 / 노움 선택)
+2023. 3. 3.
+-------------
+1. 시작 위치
+- 톱니항 - 팅커위즈
+- 언더시티 도적지구	- 그레이엄 반 탈렌
+
+2. 완료 위치
+- 고블린: 가젯잔 - 닉스 스프로켓스프링
+- 노움: 무법항 - 오글소프쿠스
+
+3. 준비물
+- 고블린 기계공학
+ * 대형 철제 폭탄 20개, 조밀한 다이너마이트 20개, 양 폭탄 5개
+  = 철 주괴 30개, 강한 화약 30개(=큰 암석 30개), 은 접지 10개(=은괴 2개)
+  = 조밀한 화약 10개(=견고한 암석 20개), 비단 옷감 10개
+  = 청동 골격 5개(=청동주괴10+일반가죽5+양모옷감5),
+    청동 회전 장치 5개(=청동주괴10+양모옷감5),
+    강한 화약 10개(=큰 암석 10개), 양모 옷감 10개
+
+- 노움 기계공학
+ * 미스릴관 6개, 정밀한 조준경 1개, 고급 표적 허수아비 2개
+  = 미스릴 주괴 18개
+  = 청동관1개(=청동주괴2+약한융해촉진제1), 비취 1개, 황수정 1개
+  = 철제 버팀대 2개(=철 주괴4), 청동 골격 2개(=청동주괴4+일반가죽2+양모옷감2), 태엽장치 2개(철주괴2+황금 동력핵2(=금괴2)), 질긴가죽 8개
 </pre>
 
 </body>
